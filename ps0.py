@@ -1,10 +1,14 @@
-# 1. Ask the user to enter a number "x"
+#Import the module "math" to gain access to the basic mathematical functions
+import math
 
+#Asking the user for a  value to assign to "x"
+x = float(input("Enter a value for x: "))
 
-# 2. Ask the user to enter a number "y"
+#Asking the user for a value to assign to "y"
+y = float(input("Enter a value for y: "))
 
+#Printing the value of "x" raised to the power of "y"
+print("\n" + ""x" raised to the power "y" = " + str(x ** y) + "\n")
 
-# 3. Prints out the number "x" raised to the power "y"
-
-
-# 4. Prints out the log (base 2) of "x"
+#Printing the value of log base 2 of "x"
+print("Log base 2 of "x" = " + str(math.log(x,2)) + "\n")
